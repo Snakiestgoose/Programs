@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+        <title>Survey - Aaron Hobgood</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="js/process_form.js"></script>
+    </head>
+    
+    <body>
+		<header>
+			<h1>Which Adam Driver character is your soulmate?</h1>
+		</header>
+
+		<div class="row">
+			<div id="column-left" class="column left" style="background-color: lightblue;">
+				<form action="process.php" id="survey" method="post" name="survey">
+					<fieldset>
+						<legend>Enter User Info</legend>
+						<div id="q1">
+							<label for="firstName">First Name:</label>
+							<input id="firstName" type="text" name="firstName" value="">
+							<span>
+						</span></div>
+						<div id="q2">
+							<label for="lastName">Last Name:</label>
+							<input id="lastName" type="text" name="lastName" value="">
+							<span>
+						</span></div>
+						<div id="q3">
+							<label for="email">Email Address: </label>
+							<input id="email" name="email" type="email">
+							<span>
+						</span></div>
+						<div id="q4">
+							<label for="tel">Phone Number: </label>
+							<input id="tel" name="tel" type="tel">
+							<span>
+						</span></div>
+						<div id="q5">
+							<label for="sulley">Student Address: </label>
+							<input id="sulley" name="sulley" type="text">
+							<span>
+						</span></div>
+						<div id="q6">
+							<label for="anon">Anonymous</label>
+							<input id="anon" name="anon" type="checkbox">
+						</div>
+						<div>
+							<input id="submit" class="button" type="submit" name="submit" value="Click to Submit">
+						</div>
+					</fieldset>
+				</form>
+				<form action="process.php" id="questionaire" method="post" name="questionaire">
+					<fieldset>
+						<legend>Question 1</legend>
+						<div><h3>Where would Adam Driver take you on your first date?</h3></div>
+						<div>
+							<label for="A">To his home</label>
+							<input id="A" type="radio" name="question1" value="To his home">
+						</div>
+						<div>
+							<label for="B">To a nice restaurant</label>
+							<input id="B" type="radio" name="question1" value="To a nice restaurant">
+						</div>
+						<div>
+							<label for="C">Wherever you want to go</label>
+							<input id="C" type="radio" name="question1" value="Wherever you want to go">
+						</div>
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend>Question 2</legend>
+						<div><h3>Where would your wedding be?</h3></div>
+						<div>
+							<label for="A">At a courthouse</label>
+							<input id="A" type="radio" name="question2" value="At a courthouse">
+						</div>
+						<div>
+							<label for="B">A vineyard</label>
+							<input id="B" type="radio" name="question2" value="A vineyard">
+						</div>
+						<div>
+							<label for="C">A local museum</label>
+							<input id="C" type="radio" name="question2" value="A local museum">
+						</div>
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend>Question 3</legend>
+						<div><h3>Where would you two go for your honeymoon?</h3></div>
+						<div>
+							<label for="A">Napa Valley, California</label>
+							<input id="A" type="radio" name="question3" value="Napa Valley, California">
+						</div>
+						<div>
+							<label for="B">New York City, New York</label>
+							<input id="B" type="radio" name="question3" value="New York City, New York">
+						</div>
+						<div>
+							<label for="C">Amsterdam, Netherlands</label>
+							<input id="C" type="radio" name="question3" value="Amsterdam, Netherlands">
+						</div>
+					</fieldset>
+					<br>
+					<input id="submit" class="button" type="submit" name="submit" value="Click to Submit">	
+				</form>
+			</div>
+			<div id="column-right" class="column right" style="background-color: #bbb;">
+				<div class="ads">
+					<a href="https://snakiestgoose.github.io/projects/SpaceShooter.html" target="_blank"><img src="img/PreviewSpaceShooter.png" 
+					alt="Space Shooter Game Screen shot"
+					style="width:100%;"></a>
+					<p>A Game Project for my Computer as a Medium course. 
+						It is a modified space shooter from the Unity tutorials.
+					</p>
+				</div>
+				<div class="ads">
+					<a href="https://snakiestgoose.github.io/projects/DriftingAway.html" target="_blank"><img src="img/PreviewDrifting.png" 
+					alt="Drifting Away Typing Game screen shot"
+					style="width:100%;"></a>
+					<p>
+						A Game Project for the Melrose Game Jam 2019. It is a typing game with two
+						modes. One where you type words as they fall, and another where the player
+						types out spells that have different abilities. 
+					</p>
+				</div>
+				<div class="ads">
+					<a href="https://snakiestgoose.github.io/projects/SpaceRobots.html" target="_blank"><img src="img/PreviewRobotLove.png" 
+					alt="Space Robot Game Jam Game"
+					style="width:100%;"></a>
+					<p>
+						A Game Project I made for the Indiegalactic Space Jam with a team of 6. I 
+						worked as under the lead programmer to help develop the mechanics. 
+					</p>
+				</div>
+				<div class="ads">
+					<a href="https://snakiestgoose.github.io/" target="_blank">CLICK HERE</a>
+					<p>Check out this portfolio I made at the beginning of the semester using only
+						HTML and CSS. It's rough, I know. 
+					</p>
+				</div>
+				<div class="ads">
+					<a href="https://www.linkedin.com/in/aaronhobgood/" target="_blank">CLICK HERE</a>
+					<p>
+						Also check out my LinkedIn profile, here is a link: CONNECT.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p>Created by Aaron Hobgood</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,1 @@
+These queries were created within an online compiler to show the full creation of tables and manipulation of them in a text document.

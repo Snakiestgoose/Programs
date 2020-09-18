@@ -1,0 +1,28 @@
+BEGIN TRANSACTION;
+
+CREATE TABLE NINJA (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Age int,
+    City varchar(255)
+);
+
+INSERT INTO NINJA VALUES(1, 'Uzumaki', 'Naruto', 13, 'Konohagakure no Sato');
+INSERT INTO NINJA VALUES(2, 'Lee', 'Rock', 14, 'Konohagakure no Sato');
+INSERT INTO NINJA VALUES(3, 'Of the Sand', 'Gaara', 13, 'Sunagakure no Sato');
+INSERT INTO NINJA VALUES(4, 'B', 'Killer', 36, 'Kumogakure no Sato');
+INSERT INTO NINJA VALUES(5, 'Sage', 'Pervy', 50, 'Konohagakure no Sato');
+INSERT INTO NINJA VALUES(6, 'Momochi', 'Zabuza', 26, 'Kirigakure no Sato');
+COMMIT;
+
+/* Display all the records from the table */
+SELECT FirstName, LastName FROM NINJA
+ORDER BY FirstName;
+
+CREATE TABLE CITIES AS 
+SELECT City FROM NINJA;
+
+SELECT City FROM CITIES
+ORDER BY City;
+
