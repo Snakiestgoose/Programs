@@ -1,4 +1,5 @@
 These three java assignments come from my Computer Science II class at UCF with Prof. Szumlanski. 
+The professor provided a bash function for testing all test cases provided. This can be done in a linux environment with bash test-all.sh
 
 Sneaky Queens takes a chess board of n size with x queens and finds if any of the queens can capture one another. 
 	Ex: _______	Returns false as none of the queens hit one another
