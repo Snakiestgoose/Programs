@@ -37,12 +37,12 @@ Run Like Hell is a dynamic programming problem similar to the Fibonacci or 0-1 K
 		o-------/\-----/\-----/\	
 	15+17+20 = 52, the highest combination
 
-#HTML
+# HTML
 
 The buzzfeed quiz was an assignment for Client-Side Scripting at UCF that tested our understanding of HTML, JS, and CSS. The survey has input validation in a form as well as the quiz, and then the information is displayed at the end. 
 
 PewPew and Pong are games I made for fun playing with JS in-line. 
 
-#SQL
+# SQL
 
 These queries were created within an online compiler to show the full creation of tables and manipulation of them in a text document.
