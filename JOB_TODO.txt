@@ -1,4 +1,0 @@
-HackerRank
-Gather some solutions from github: Both school and games
-Do some sql problems
-Write something in C#
